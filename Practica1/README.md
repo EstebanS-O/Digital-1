@@ -6,11 +6,10 @@
 #### INTRODUCCION 
 Durante el curso de  Digital 1 utilizaremos un sistema operativo conocido como Linux ya que se convierte en una plataforma ideal para este campo debiado a que ofrece una amplia gama de herramientas para el diseño de circuitos, simulacion de circuitos y fabricacion de estos.
 
-En nuestro caso utlizaremos las siguientes herramientas:
 
-Miniconda y herramientas de minoconda
+Para el curso tendremos que instalar Miniconda, que es una version liviana y controlada de anaconda, miniconda nos proporciona olo el sistema de gestión de paquetes Conda y un conjunto mínimo de paquetes esenciales, es por ello, que  debemos instalar los demas paquetes  segun sea lo necesario, en nuestro caso Iverilog y Yosys que son herramientras que nos seran utlies para el desaroollo de las actividades.
 
-Digital y complemnetos para digital
+Por otra parte, instalamos  digital que es un programa  que nos brindara herramientas para visualizar los estados de la señal, los analisis de los circuitos, analisis de oscilacion, exportacion SVG, etc. Por ultimo, hay que habilitar la opcion de importar descrpciones de VHDL o Veriolog y para ello se requiere de la instlacion de un simulador segun el lenguaje del que queramos importar.    
 
 
 #### INSTALACION DE LINUX 
