@@ -13,6 +13,10 @@ Miniconda y herramientas de minoconda
 Digital y complemnetos para digital
 
 
+####INSTALACION DE LINUX 
+
+
+
 
 
 
