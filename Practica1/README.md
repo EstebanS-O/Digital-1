@@ -15,7 +15,7 @@ Digital y complemnetos para digital
 
 #### INSTALACION DE LINUX 
 
-
+primero nos dirigimos hey so watch desde ahí elegimos cuál sistema operativo basado en Linux vamos a instalar coma en esta página podemos ver todas las características de todos los diferentes sistemas operativos basados en Linux y nuestro grupo decidió elegir Linux mind
 
 
 
