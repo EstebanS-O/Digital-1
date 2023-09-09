@@ -1,6 +1,7 @@
 # Laboratorio 1- Herramientas Digitales
 ## Universidad Nacional De Colombia
 ### Derly Xiomara Diaz Correa
+### Cristian Esteban Aguilera Agudelo
 
 
 #### INTRODUCCION 
@@ -25,7 +26,16 @@ ahora si iniciamos desde la bios y comprobamos que en las opciones de arranque e
 #### INSTALCION DE LAS HERRAMIENTAS
 ##### *INSTALACION DE MINICONDA
 
+Primero se instalo miniconda usando un comando en el terminal, a continuacion a la instalacion se actualizo conda, todo esto para hacerlo funcionar como gestor de paquetes y asi poder instalar las herramientas propuestas.
 
+##### *INSTALACION DEL RESTO DE HERRAMIENTAS CON CONDA
+
+Ya teniendo el conda instalado lo usamos para instalar cada una de las herramientas, abriendo un terminal y en este creamos un entorno que llamamos "Digital".
+
+A continuacion instalamos las herramientas desde miniconda, donde con diferentes comandos se instalo, gtkwave, graphviz, netlistssvg, yosys, y iverilog.
+
+Luego se instalo Digital, herramienta que se usara para analizar los distintos circuitos electronicos digitales, para la instalacion de esta se tuvo que recurrir a la maquina virtual de java.
+Por ultimo se comprobo las herramientas instaladas para esto se usaron diferentes comandos en el entorno de digital, dandonos una prueba de que las herramientas fueron instaladas correctamente.
 
 
 
