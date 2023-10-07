@@ -9,9 +9,17 @@ Durante este laboratorio se utilizaron las distintas herramientas como, Digital,
 
 #### Sumador completo
 Lo primero que se hace es crear un bloque de circuito, donde es un basico sumador completo de bit a bit.
+![](https://github.com/EstebanS-O/Digital-1/blob/main/practica%202/sumador-completo.png)
 
 #### Complemento a 2
 Cuando es ingresado 1 o ambos numeros negativos es necesario pasarlo a complemento a 2, pues en esta forma es como se puede aplicar la resta, para esto se crea un bloque que realice esta tarea.
+![](https://github.com/EstebanS-O/Digital-1/blob/main/practica%202/complemento-a-2.png)
 
 #### Sumador/Restador
 Por ultimo usando ambos bloques creados anteriormente, se crea el circuito completo, con la funcion de sumar o restar dependiendo el bit de signo que se le ingrese en los numeros, cuando la respuesta es un numero negativo un bloque de complemento a dos se encargara de volverlo a poner en forma base para poderlo identificar, este bloque tambien sera utilizado para pasar a complemento a 2 los numeros negativos ingresados.
+![](https://github.com/EstebanS-O/Digital-1/blob/main/practica%202/sumador-restador.png)
+
+#### Codigo verilog
+![](https://github.com/EstebanS-O/Digital-1/blob/main/practica%202/codigoiverilog1.png)
+![](https://github.com/EstebanS-O/Digital-1/blob/main/practica%202/codigoiverilog2.png)
+![](https://github.com/EstebanS-O/Digital-1/blob/main/practica%202/codigoiverilog3.png)
