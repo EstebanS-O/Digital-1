@@ -25,7 +25,7 @@ Por ultimo usando ambos bloques creados anteriormente, se crea el circuito compl
 #### Tesbench, GTKwave
 Teniendo el archivo del sumador/restador solo queda crear un tesbench y con este hacer pruebas, primero utilizando el codigo dado para obtener el archivo top, y a continuacion ejecutando el comando del GTKwave atraves del top.vcd.
 
-
+![](https://github.com/EstebanS-O/Digital-1/blob/main/practica%202/gtkwaveverilog.jpg)
 
 #### Codigo verilog
 
