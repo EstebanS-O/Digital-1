@@ -27,6 +27,10 @@ Teniendo el archivo del sumador/restador solo queda crear un tesbench y con este
 
 ![](https://github.com/EstebanS-O/Digital-1/blob/main/practica%202/gtkwaveverilog.jpg)
 
+#### Simulaciòn GTKwave
+
+![](https://github.com/EstebanS-O/Digital-1/blob/main/practica%202/gtkwave.jpg)
+
 #### Codigo verilog
 
 ![](https://github.com/EstebanS-O/Digital-1/blob/main/practica%202/codigoiverilog1.png)
