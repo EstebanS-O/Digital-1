@@ -136,19 +136,15 @@ En la cuerta etapa se unen todos los archivos y  sus entradas generales  para el
 ![image](https://github.com/EstebanS-O/Digital-1/assets/143283768/2d2dc56b-afcd-4f55-b25e-32f0ca5e4b9a)
 
 
+#### SIMULACION Y PRUEBAS
 
-
-
-
-![image](https://github.com/EstebanS-O/Digital-1/assets/143283768/ddb6a845-ebc6-432f-835d-8223c61814fc)
-
-
+![image](https://github.com/EstebanS-O/Digital-1/assets/143283768/78f14324-9411-4051-bbb1-63d7ae9f4fed)
+En la imagen anterior se observa que cuando el contador llega a 12500 se reinicia y en ese instante el contador al proximo ciclo positivo del clk, empieza el conteo, ya que MQ4 empieza a ser 1.
 
 
 ![image](https://github.com/EstebanS-O/Digital-1/assets/143283768/adb00809-4d47-4f86-b138-8dbc830c81aa)
+En la imagen anterior se nota que el contador termina, pues MQ4 cambia a 0, por lo que con esto tenemos el conteo de el tiempo que duro en 1 la señal y con esto se puede determinar el nivel en el que se encuentra la cantidad de gas detectada, que para este caso es el nivel maximo el 5, que se tiene representado como 101, tambien se puede notar que como se esta en este nivel maximo el sonido tambien se activa.
 
 
-![image](https://github.com/EstebanS-O/Digital-1/assets/143283768/78f14324-9411-4051-bbb1-63d7ae9f4fed)
-
-
-
+![image](https://github.com/EstebanS-O/Digital-1/assets/143283768/ddb6a845-ebc6-432f-835d-8223c61814fc)
+En la anterior imagen se evidencia en que momento se enciende el led 5, pues para el encendido de los leds se implemento un ciclo de 0,5 segundos de periodo, por lo que se nota que empieza en 0 y a los 250 milisegundos cambia a 1.
