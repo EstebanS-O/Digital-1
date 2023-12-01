@@ -1,51 +1,78 @@
-# Laboratorio 1- Herramientas Digitales
-## Universidad Nacional De Colombia
-### Derly Xiomara Diaz Correa
-### Cristian Esteban Aguilera Agudelo
-### Juan Esteban Suarez Ortega
+## UNIVERSIDAD NACIONAL DE COLOMBIA
+### DOCENTE: DIEGO ALEXANDER TIBADUIZA BURGOS
+## PROYECTO SENSOR DE GAS PARA USO MINERO
+Juan Esteban Suarez
+
+Cristian Esteban Agudelo
+
+Derly Xiomara Diaz Correa
+
+#### Formulacion del problema
+
+El problema por resolver es la falta de seguridad en las minas de carbón, donde se producen 
+accidentes graves, como asfixia o derrumbes, debido a la presencia de gases tóxicos como el 
+dióxido de carbono (CO2) y otros. Estos accidentes pueden tener consecuencias mortales para los 
+trabajadores mineros, y es necesario abordar el problema de manera efectiva para garantizar un 
+entorno de trabajo más seguro en las minas de carbón.
+
+Según el Ministerio de Minas y Energía de Colombia, los accidentes en minas son un problema 
+persistente en el país. Aunque ha habido mejoras en los últimos años, los accidentes laborales aún 
+ocurren con cierta frecuencia en las minas de carbón
+
+#### Objetivos
+Principal
+
+Mejorar de manera significativa la seguridad de los trabajadores en las 
+minas de carbón en Colombia, reduciendo la incidencia de accidentes relacionados con gases 
+tóxicos, como el dióxido de carbono (CO2), y garantizando un entorno de trabajo más seguro.
+
+Especificos 
+
+• Desarrollar e implementar dispositivos móviles efectivos que se puedan colocar en los 
+cascos de los mineros para detectar niveles peligrosos de gases tóxicos.
+
+• Invertir en tecnología de ventilación más avanzada para mantener los niveles de gases 
+tóxicos dentro de límites seguros en las minas de carbón.
+
+#### Posibles soluciones 
+
+• Como se mencionó anteriormente, la implementación de dispositivos móviles en los 
+cascos de los mineros que puedan detectar niveles peligrosos de dióxido de carbono (CO2) 
+y otros gases tóxicos es una solución clave. Estos dispositivos deben ser precisos, 
+confiables y fáciles de usar.
+
+• Un sistema de ventilación eficiente es esencial para mantener los niveles de gases tóxicos 
+dentro de límites seguros. La inversión en sistemas de ventilación más avanzados y el 
+monitoreo constante de la calidad del aire pueden reducir significativamente el riesgo de 
+asfixia.
+
+• Utilizar tecnología de supervisión y control remoto para monitorear las condiciones de 
+trabajo y los niveles de gases desde la superficie puede ser una medida preventiva 
+efectiva. Esto permite tomar decisiones informadas en tiempo real
 
 
-#### INTRODUCCION 
-Durante el curso de  Digital 1 utilizaremos un sistema operativo conocido como Linux ya que se convierte en una plataforma ideal para este campo debiado a que ofrece una amplia gama de herramientas para el diseño de circuitos, simulacion de circuitos y fabricacion de estos.
+Procedimiento
 
 
-Para el curso tendremos que instalar Miniconda, que es una version liviana y controlada de anaconda, miniconda nos proporciona solo el sistema de gestión de paquetes Conda y un conjunto mínimo de paquetes esenciales, es por ello, que  debemos instalar los demas paquetes  segun sea lo necesario, en nuestro caso Iverilog y Yosys que son herramientras que nos seran utlies para el desaroollo de las actividades.
-
-Por otra parte, instalamos  digital que es un programa  que nos brindara herramientas para visualizar los estados de la señal, los analisis de los circuitos, analisis de oscilacion, exportacion SVG, etc. Por ultimo, hay que habilitar la opcion de importar descripciones de VHDL o Veriolog y para ello se requiere de la instalacion de un simulador segun el lenguaje del que queramos importar. 
+![image](https://github.com/EstebanS-O/Digital-1/assets/143283768/a9d054c3-0975-495b-958c-b551cf0d2056)
 
 
-#### INSTALACION DE LINUX 
+![image](https://github.com/EstebanS-O/Digital-1/assets/143283768/20c82591-b4f9-47dd-9e93-5de69a088752)
 
-* primero nos dirigimos al distrowatch desde ahí elegimos cuál sistema operativo basado en Linux vamos a instalar coma en esta página podemos ver todas las características de todos los diferentes sistemas operativos basados en Linux y nuestro grupo decidió elegir Linux mint.
-* desde ahí nos dirigimos a la página oficial de Linux mint donde para la descarga nos muestra tres archivos dos de esos son para la confirmación de la descarga correcta del ISO y la otra de un Torrent que nos da la descarga del .ISO, para poder hacer la comprobación en Windows es necesario descargar GnuPG.
-* seguido abrimos el iso desde la ventana de comandos y ejecutamos una serie de comandos que nos indican en la guia de instrucciones de instalación oficial de mint.
-* ya terminada la comprobación descargamos la herramienta Etcher con la cual podremos crear nuestro medio de instalación, nosotros lo hicimos por medio de una usb.
-* antes de iniciar el pc desde la bios, vamos al administrador de discos y reducimos el disco c:  para dejar suficiente espacio para el nuevo sistema operativo y este espacio quedara como no asignado.
-* ahora si iniciamos desde la bios y comprobamos que en las opciones de arranque este de primeras puerto serialo cd rom y una vez guardamos volvemos a arrancar el pc y presionando repetidamente una tecla en todos los computadores cambia segun la marca en asus fue f2 y el hp f9, sale el menu de dispositivos de arranque donde uno puede seleccionar la unidad usb o los diferentes discos de unidad, cuando se selecciona la usb donde tenemos el medio de instalación nos aparecen unas opciones de esas seleccionamos iniciar linuxmint.
-  
-* en el escritorio hay un icono "install linux mind" lo abrimos y nos abre un cuadro de dialogo donde iniciaremos formalmente el proceso de instalación.
-* escogemos el idioma de instalacion, la distribucion del teclado, elegimos si conectarnos a una red inalambrica o no, podemos elegir entre instalar los códecs multimedia que nos sirven para reproducir algunos formatos de video.
-* seguido nos indica a seleccionar que tipo de instalacion vamos a realizar, una en la cual se conservan todos los archivos y el sistema operativo que ya se tenga instalado y otra borrando todo, nosotros elegimos la  de conservar todo. ahora necesitaremos activar una tercera opcion "mas opciones" en la cual podremos crear particiones del disco o redimensionarlas, damos en siguiente y mint empieza a escanear y seguido nos muestra la distribucion de el almacenamiento, las particiones existentes y si tienen algun sistema operativo, nosotros seleccionamos la particion del tamaño que anteriormente dejamos sin asigmnar, le damos en cambiar, ahi seleccionamos el sistema de ficheros "ext4 transaccional" que es la reecomendada en la guia de instalacion, seleccionamos en formatear particion y selecionamos el punto de montaje "/" que es el de la carpeta principal, confirmamos esperamos un par de minutos y damos en instalar ahora.
-* como ultimos pasos selecionamos nuestro pais, nuestro nombre, el del equipo , el del usuario y la contraseña, despues de esto diriamos que se empiza realmente la instalacion formal del sistema operativo.
-* ya terminado el proceso nos sale una cuadro de dialogo donde nos pide reiniciar el equipo, nospide que removamos la usb y demos enter. y listo ya terminamos.
-![](https://github.com/EstebanS-O/Digital-1/blob/main/Practica1/1.jpg)
+
+![image](https://github.com/EstebanS-O/Digital-1/assets/143283768/2d2dc56b-afcd-4f55-b25e-32f0ca5e4b9a)
+
+
+![image](https://github.com/EstebanS-O/Digital-1/assets/143283768/b4d97ea5-c8ba-4a6a-b819-6c95b6095ad4)
 
 
 
-#### INSTALCION DE LAS HERRAMIENTAS
-##### *INSTALACION DE MINICONDA
-
-Primero se instalo miniconda usando un comando en el terminal, a continuacion a la instalacion se actualizo conda, todo esto para hacerlo funcionar como gestor de paquetes y asi poder instalar las herramientas propuestas.
-
-##### *INSTALACION DEL RESTO DE HERRAMIENTAS CON CONDA
-
-Ya teniendo el conda instalado lo usamos para instalar cada una de las herramientas, abriendo un terminal y en este creamos un entorno que llamamos "Digital".
-
-A continuacion instalamos las herramientas desde miniconda, donde con diferentes comandos se instalo, gtkwave, graphviz, netlistssvg, yosys, y iverilog.
-
-Luego se instalo Digital, herramienta que se usara para analizar los distintos circuitos electronicos digitales, para la instalacion de esta se tuvo que recurrir a la maquina virtual de java.
-Por ultimo se comprobo las herramientas instaladas para esto se usaron diferentes comandos en el entorno de digital, dandonos una prueba de que las herramientas fueron instaladas correctamente.
+![image](https://github.com/EstebanS-O/Digital-1/assets/143283768/ddb6a845-ebc6-432f-835d-8223c61814fc)
 
 
 
-                                                                    
+
+![image](https://github.com/EstebanS-O/Digital-1/assets/143283768/adb00809-4d47-4f86-b138-8dbc830c81aa)
+
+
+![image](https://github.com/EstebanS-O/Digital-1/assets/143283768/78f14324-9411-4051-bbb1-63d7ae9f4fed)
