@@ -112,16 +112,29 @@ Nivel 101-- NO IMPORTA
 
 Luego realizamos los mapas de Karnaugh 
 
+![image](https://github.com/EstebanS-O/Digital-1/assets/143283768/3322b0f5-040d-4db6-9926-05889c4da1d4)
 
+
+![image](https://github.com/EstebanS-O/Digital-1/assets/143283768/0666fa4e-1d76-45c6-a58f-bdec804347da)
+
+
+
+![image](https://github.com/EstebanS-O/Digital-1/assets/143283768/1c8209a2-5ae6-4e68-8e38-7b5486e73007)
 
 
 ![image](https://github.com/EstebanS-O/Digital-1/assets/143283768/20c82591-b4f9-47dd-9e93-5de69a088752)
 
 
+#### CUARTA ETAPA
+
+En la cuerta etapa se unen todos los archivos y  sus entradas generales  para el funcionamiento del circuito y se unen unen con cables de una salida de una etapa a la otra salida de la etapa.
+
+
+
 ![image](https://github.com/EstebanS-O/Digital-1/assets/143283768/2d2dc56b-afcd-4f55-b25e-32f0ca5e4b9a)
 
 
-![image](https://github.com/EstebanS-O/Digital-1/assets/143283768/b4d97ea5-c8ba-4a6a-b819-6c95b6095ad4)
+
 
 
 
@@ -135,6 +148,5 @@ Luego realizamos los mapas de Karnaugh
 
 ![image](https://github.com/EstebanS-O/Digital-1/assets/143283768/78f14324-9411-4051-bbb1-63d7ae9f4fed)
 
-#### Analisis de resultados
 
 
