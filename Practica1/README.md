@@ -68,16 +68,30 @@ La formula utilizada es la siguiente:
 ![image](https://github.com/EstebanS-O/Digital-1/assets/143283768/d1f3b3f8-b502-445e-86b4-f10a76d8a1e3)
 
 
-
-
-
-
-
-
-
-
 ![image](https://github.com/EstebanS-O/Digital-1/assets/143283768/79b16e5a-e452-4eef-b7f0-a85b7c5acd64)
 
+#### SEGUNDA ETAPA
+
+Para esta etapa se realizo un nuevo contador que esta sincronizado con la señal del reloj de la respuesta de salida del contador anterior, lo que estamos haciendo es compara con un ciclo "if", cuando nuestra señal esteen  0 y 1 tendra distintos comportamiento,en  1 seguira contando y en 0 se detendra en el valor actua que tiene el cintador y eso me determina en que nivel deteccion esta.
+![image](https://github.com/EstebanS-O/Digital-1/assets/143283768/b4d97ea5-c8ba-4a6a-b819-6c95b6095ad4)
+
+Fijamos limites para cada nivel de deteccion y a cada nivel se le asigna una salida de  3 Bits
+
+parameter LIMIT = 6'd50;---000
+
+parameter step0 = 10;---001
+
+parameter step1 = 15;---010
+
+parameter step2 = 20;---011
+
+parameter step3 = 25;---100
+
+parameter step4 = 30;---101
+
+
+
+![image](https://github.com/EstebanS-O/Digital-1/assets/143283768/d3380cf2-90ab-4d81-9b08-48ad5ec13456)
 
 
 
