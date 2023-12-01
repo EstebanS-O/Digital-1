@@ -53,8 +53,40 @@ efectiva. Esto permite tomar decisiones informadas en tiempo real
 
 #### Procedimiento
 
+#### PRIMER ETAPA
+
+Se realiza un divisor de frecuencia para crear una nueva señal de reloj y que sus ciclo sea un 1ms
 
 ![image](https://github.com/EstebanS-O/Digital-1/assets/143283768/a9d054c3-0975-495b-958c-b551cf0d2056)
+
+La formula utilizada es la siguiente:
+
+![image](https://github.com/EstebanS-O/Digital-1/assets/143283768/2991fe65-f7b9-4add-b9ba-b9dbf79461c9)
+
+![image](https://github.com/EstebanS-O/Digital-1/assets/143283768/a256dbb7-61b5-4466-80f9-983ca4c4446e)
+
+![image](https://github.com/EstebanS-O/Digital-1/assets/143283768/d1f3b3f8-b502-445e-86b4-f10a76d8a1e3)
+
+
+
+
+
+
+
+
+
+
+![image](https://github.com/EstebanS-O/Digital-1/assets/143283768/79b16e5a-e452-4eef-b7f0-a85b7c5acd64)
+
+
+
+
+
+
+
+
+
+
 
 
 ![image](https://github.com/EstebanS-O/Digital-1/assets/143283768/20c82591-b4f9-47dd-9e93-5de69a088752)
