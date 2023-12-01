@@ -51,7 +51,7 @@ trabajo y los niveles de gases desde la superficie puede ser una medida preventi
 efectiva. Esto permite tomar decisiones informadas en tiempo real
 
 
-Procedimiento
+#### Procedimiento
 
 
 ![image](https://github.com/EstebanS-O/Digital-1/assets/143283768/a9d054c3-0975-495b-958c-b551cf0d2056)
@@ -76,3 +76,7 @@ Procedimiento
 
 
 ![image](https://github.com/EstebanS-O/Digital-1/assets/143283768/78f14324-9411-4051-bbb1-63d7ae9f4fed)
+
+#### Analisis de resultados
+
+
