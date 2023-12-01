@@ -94,11 +94,23 @@ parameter step4 = 30;---101
 ![image](https://github.com/EstebanS-O/Digital-1/assets/143283768/d3380cf2-90ab-4d81-9b08-48ad5ec13456)
 
 
+#### TERCERA ETAPA
 
+Como ya contamos con tres Bits asiganaados ateriormente  a los niveles deteccion lo que realiamos es una tabla de verdad con las siguientes condicines
 
+Nivel 00-- NO ENCIENDE NINGUN LED
 
+Nivel 001--  ENCIENDE EL PRIMER LED
 
+Nivel 010--  ENCIENDE EL SEGUNDO  LED
 
+Nivel 011-- ENCIENDE EL TERCER LED
+
+Nivel 100-- NO IMPORTA
+
+Nivel 101-- NO IMPORTA
+
+Luego realizamos los mapas de Karnaugh 
 
 
 
