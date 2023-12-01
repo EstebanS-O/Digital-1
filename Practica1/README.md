@@ -98,7 +98,7 @@ parameter step4 = 30;---101
 
 Como ya contamos con tres Bits asiganaados ateriormente  a los niveles deteccion lo que realiamos es una tabla de verdad con las siguientes condicines
 
-Nivel 00-- NO ENCIENDE NINGUN LED
+Nivel 000-- NO ENCIENDE NINGUN LED
 
 Nivel 001--  ENCIENDE EL PRIMER LED
 
@@ -106,9 +106,11 @@ Nivel 010--  ENCIENDE EL SEGUNDO  LED
 
 Nivel 011-- ENCIENDE EL TERCER LED
 
-Nivel 100-- NO IMPORTA
+Nivel 100-- ENCIENDE EL CUARTO LED
 
-Nivel 101-- NO IMPORTA
+Nivel 101-- ENCIENDE EL QUINTO LED
+Nivel 110-- NO IMPORTA
+Nivel 111-- NO IMPORTA
 
 Luego realizamos los mapas de Karnaugh 
 
